@@ -9,4 +9,4 @@ meet timing, power, and area specifications.
 SAED90nm technology library for design and analysis
 
 
-![SAR CHIPLET ](C:\Users\CompuMartes\Pictures\Screenshots\Screenshot 2024-05-23 010058.png)
+![SAR CHIPLET ](sar.png)
