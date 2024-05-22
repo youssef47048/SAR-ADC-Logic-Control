@@ -1,0 +1,407 @@
+
+                                 Formality (R)
+
+                 Version V-2023.12 for linux64 - Nov 16, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Build: 8560677
+Hostname: elc-v1111111-lnx
+Current time: Mon May  6 07:17:15 2024
+
+Loading db file '/eda/synopsys/fm/V-2023.12/libraries/syn/gtech.db'
+fm_shell (setup)> start_gui
+fm_shell (setup)> set_svf -append { /home/vlsi/Synopsys/project/project_sar/syn/default.svf } 
+SVF appended with '/home/vlsi/Synopsys/project/project_sar/syn/default.svf'.
+1
+fm_shell (setup)> set_svf -append {/home/vlsi/Synopsys/project/project_sar/syn/default.svf}
+Info:  Skipping repeated file /home/vlsi/Synopsys/project/project_sar/syn/default.svf.
+1
+fm_shell (setup)> read_verilog -container r -libname WORK -05 { /home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v } 
+Loading verilog file '/home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v'
+Current container set to 'r'
+1
+fm_shell (setup)> read_verilog -container r -libname WORK -05{/home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v}
+Error: Can't open file -05. (FM-016)
+0
+fm_shell (setup)> read_verilog -container r -libname WORK -05 {/home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v}
+Loading verilog file '/home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v'
+Warning: Overwriting existing module 'pit_top' with newer version. (File: /home/vlsi/Synopsys/project/project_sar/rtl/pit_top.v Line: 1)  (FMR_VLOG-064)
+Information: Loading new version of design '/WORK/pit_top' into container 'r' (FM-548)
+1
+fm_shell (setup)> set_top r:/WORK/pit_top 
+Setting top design to 'r:/WORK/pit_top'
+Status:   Elaborating design pit_top   ...  
+Status:  Implementing inferred operators...
+Top design successfully set to 'r:/WORK/pit_top'
+Reference design set to 'r:/WORK/pit_top'
+1
+fm_shell (setup)> read_verilog -container i -libname WORK -05 { /home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v } 
+Loading verilog file '/home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v'
+Current container set to 'i'
+1
+fm_shell (setup)> read_verilog -container i -libname WORK -05 {/home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v}
+Loading verilog file '/home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v'
+Information: Loading new version of design '/WORK/pit_top_DW01_dec_1' into container 'i' (FM-548)
+Information: Loading new version of design '/WORK/pit_top' into container 'i' (FM-548)
+1
+fm_shell (setup)> read_db { /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } 
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+1
+fm_shell (setup)> read_db {/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db}
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+Loading new version of design 'AND2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND2X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND3X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND4X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND4X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AND4X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ANTENNA' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO21X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO21X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO221X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO221X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO222X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO222X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO22X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AO22X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOBUFX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOBUFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOBUFX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AODFFARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AODFFARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AODFFNARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AODFFNARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI21X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI21X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI221X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI221X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI222X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI222X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI22X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOI22X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOINVX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOINVX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'AOINVX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'BSLEX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'BSLEX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'BSLEX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'BUSKP' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'CLOAD1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DCAP' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DEC24X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DEC24X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DELLN1X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DELLN2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DELLN3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFASRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFASRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFASX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFASX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRNX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRNX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRQX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRQX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNASX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFNX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFSSRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFSSRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DFFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DHFILLHLH2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DHFILLHLHLS11' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'DHFILLLHL2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'FADDX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'FADDX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HADDX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HADDX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEAD2X16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEAD2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEAD2X32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEAD2X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEAD2X8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEADX16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEADX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEADX32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEADX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'HEADX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'IBUFFX16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'IBUFFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'IBUFFX32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'IBUFFX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'IBUFFX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'INVX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLANDX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLANDX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLANDX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLANDX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLORX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLORX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLORX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'ISOLORX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRNX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRNX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRQX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRQX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LASX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LATCHX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LATCHX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LNANDX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'LNANDX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'MUX21X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'MUX21X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'MUX41X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'MUX41X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND2X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND2X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND3X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND3X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND4X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NAND4X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NBUFFX16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NBUFFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NBUFFX32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NBUFFX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NBUFFX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NMT1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NMT2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NMT3' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR2X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR2X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR3X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR3X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR4X0' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'NOR4X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA21X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA21X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA221X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA221X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA222X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA222X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA22X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OA22X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI21X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI21X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI221X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI221X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI222X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI222X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI22X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OAI22X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR2X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR3X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR4X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR4X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'OR4X4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PGX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PGX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PGX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PMT1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PMT2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'PMT3' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASRSX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASRSX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFASX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNARX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNARX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNASRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNASRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNASX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNASX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFNX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFSSRX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFSSRX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SDFFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SHFILL1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SHFILL128' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SHFILL2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SHFILL3' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'SHFILL64' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TIEH' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TIEL' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX16' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX32' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX4' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'TNBUFFX8' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XNOR2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XNOR2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XNOR3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XNOR3X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XOR2X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XOR2X2' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XOR3X1' into shared technology library 'SAED90NM_MAX_LTH'
+Loading new version of design 'XOR3X2' into shared technology library 'SAED90NM_MAX_LTH'
+1
+fm_shell (setup)> set_top i:/WORK/pit_top 
+Setting top design to 'i:/WORK/pit_top'
+Status:  Implementing inferred operators...
+
+************ Library Checking Summary ************
+Warning:  60 unlinked power cell(s) with no power down function on an ff or latch.
+        Use 'report_libraries -defects all' for more details.
+**************************************************
+
+Top design successfully set to 'i:/WORK/pit_top'
+Implementation design set to 'i:/WORK/pit_top'
+1
+fm_shell (setup)> set_top i:/WORK/pit_top
+Error: Top design is already set to 'i:/WORK/pit_top'.  Failed to set top design to 'i:/WORK/pit_top'. (FM-157)
+0
+fm_shell (setup)> set_top i:/WORK/pit_top
+Error: Top design is already set to 'i:/WORK/pit_top'.  Failed to set top design to 'i:/WORK/pit_top'. (FM-157)
+0
+fm_shell (setup)> set_top i:/WORK/pit_top
+Error: Top design is already set to 'i:/WORK/pit_top'.  Failed to set top design to 'i:/WORK/pit_top'. (FM-157)
+0
+fm_shell (setup)> set_topi:/WORK/pit_top
+Error: unknown command 'set_topi:/WORK/pit_top' (CMD-005)
+fm_shell (setup)> set_top {i:/WORK/pit_top}
+Error: Top design is already set to 'i:/WORK/pit_top'.  Failed to set top design to 'i:/WORK/pit_top'. (FM-157)
+0
+fm_shell (setup)> match 
+Reference design is 'r:/WORK/pit_top'
+Implementation design is 'i:/WORK/pit_top'
+Status:  Checking designs...
+Status:  Building verification models...
+Status:  Processing Guide Commands...
+SVF BEGIN: Timestamp: Cpu: 0.005h, Wall: 0.274h, Mem: 0.701G, Current time: Mon May  6 07:32:11 2024
+SVF END: Timestamp: Cpu: 0.005h, Wall: 0.274h, Mem: 0.701G, Current time: Mon May  6 07:32:11 2024
+
+***************************** Guidance Summary *****************************
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+change_names        :          3          0          0          0          3
+environment         :         13          0          0          0         13
+file_info           :          1          0          0          0          1
+mark                :          6          0          0          0          6
+reg_constant        :          1          2          0          0          3
+transformation
+   map              :          6          0          0          0          6
+uniquify            :          6          0          0          0          6
+----------------------------------------------------------------------------
+Total               :         36          2          0          0         38
+
+Note: If verification succeeds you can safely ignore unaccepted guidance commands.
+
+Note: No guide_hier_map commands were found in the SVF. It is
+      important to enable guide_hier_map generation in
+      Design Compiler to avoid SVF rejections that can cause
+      aborted/failing points or long run times during verification.
+      In Design Compiler the recommended methodology uses variable
+      hdlin_enable_hier_map and command set_verification_top.
+
+SVF files read:
+      /home/vlsi/Synopsys/project/project_sar/syn/default.svf
+
+SVF files produced:
+  /home/vlsi/Synopsys/project/project_sar/formality/formality_svf/
+    svf.txt
+****************************************************************************
+
+Status:  Matching...
+
+*********************************** Matching Results ***********************************
+ 67 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 3 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+1
+fm_shell (match)> verify 
+Reference design is 'r:/WORK/pit_top'
+Implementation design is 'i:/WORK/pit_top'
+
+*********************************** Matching Results ***********************************
+ 67 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 3 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+Status:  Verifying...
+
+
+********************************* Verification Results *********************************
+Verification SUCCEEDED
+----------------------
+ Reference design: r:/WORK/pit_top
+ Implementation design: i:/WORK/pit_top
+ 67 Passing compare points
+----------------------------------------------------------------------------------------
+Matched Compare Points     BBPin    Loop   BBNet     Cut    Port     DFF     LAT   TOTAL
+----------------------------------------------------------------------------------------
+Passing (equivalent)           0       0       0       0      11      56       0      67
+Failing (not equivalent)       0       0       0       0       0       0       0       0
+****************************************************************************************
+1
+fm_shell (verify)> exit
+
+Maximum memory usage for this session: 717 MB
+CPU usage for this session: 21.42 seconds ( 0.01 hours )
+Current time: Mon May  6 07:33:46 2024
+Elapsed time: 1080 seconds ( 0.30 hours )
+
+Thank you for using Formality (R)!

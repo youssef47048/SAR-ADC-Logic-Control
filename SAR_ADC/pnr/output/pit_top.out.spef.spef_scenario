@@ -1,0 +1,6 @@
+/home/vlsi/Synopsys/project/project_sar/pnr/output/pit_top.out.spef.minTLU_-40.spef for scenarios: 
+	 scenario: default, corner type: late
+
+/home/vlsi/Synopsys/project/project_sar/pnr/output/pit_top.out.spef.maxTLU_-40.spef for scenarios: 
+	 scenario: default, corner type: early
+

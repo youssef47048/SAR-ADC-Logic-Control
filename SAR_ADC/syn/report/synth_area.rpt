@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : pit_top
+Version: V-2023.12
+Date   : Mon May  6 07:08:53 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_max_lth (File: /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db)
+
+Number of ports:                           78
+Number of nets:                           400
+Number of cells:                          303
+Number of combinational cells:            246
+Number of sequential cells:                56
+Number of macros/black boxes:               0
+Number of buf/inv:                         44
+Number of references:                      16
+
+Combinational area:               1865.318403
+Buf/Inv area:                      243.302406
+Noncombinational area:            1804.492828
+Macro/Black Box area:                0.000000
+Net Interconnect area:             190.227459
+
+Total cell area:                  3669.811232
+Total area:                       3860.038691
+1

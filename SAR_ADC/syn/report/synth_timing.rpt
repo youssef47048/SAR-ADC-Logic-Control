@@ -1,0 +1,1221 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : pit_top
+Version: V-2023.12
+Date   : Mon May  6 07:08:53 2024
+****************************************
+
+Operating Conditions: WORST   Library: saed90nm_max_lth
+Wire Load Model Mode: enclosed
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U166/Q (AND3X1)                          0.07       0.67 f
+  U248/Q (AO21X1)                          0.06       0.73 f
+  U167/ZN (INVX0)                          0.01       0.75 r
+  U8/Q (AO22X1)                            0.05       0.80 r
+  sar_reg_reg[0]/D (DFFARX1)               0.00       0.80 r
+  data arrival time                                   0.80
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[0]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack (MET)                                         0.21
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U166/Q (AND3X1)                          0.07       0.67 f
+  U246/QN (NAND3X0)                        0.02       0.70 r
+  U247/QN (NAND2X1)                        0.03       0.72 f
+  U169/ZN (INVX0)                          0.02       0.74 r
+  U13/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[1]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[1]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U166/Q (AND3X1)                          0.07       0.67 f
+  U242/QN (NAND3X0)                        0.02       0.70 r
+  U243/QN (NAND2X1)                        0.03       0.72 f
+  U170/ZN (INVX0)                          0.02       0.74 r
+  U23/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[3]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[3]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U166/Q (AND3X1)                          0.07       0.67 f
+  U244/QN (NAND3X0)                        0.02       0.70 r
+  U245/QN (NAND2X1)                        0.03       0.72 f
+  U168/ZN (INVX0)                          0.02       0.74 r
+  U18/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[2]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[2]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U171/Q (AND3X1)                          0.07       0.67 f
+  U241/Q (AO21X1)                          0.06       0.73 f
+  U172/ZN (INVX0)                          0.01       0.74 r
+  U29/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[4]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[4]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U171/Q (AND3X1)                          0.07       0.67 f
+  U239/QN (NAND3X0)                        0.02       0.69 r
+  U240/QN (NAND2X1)                        0.03       0.72 f
+  U174/ZN (INVX0)                          0.02       0.74 r
+  U34/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[5]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[5]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U171/Q (AND3X1)                          0.07       0.67 f
+  U235/QN (NAND3X0)                        0.02       0.69 r
+  U236/QN (NAND2X1)                        0.03       0.72 f
+  U175/ZN (INVX0)                          0.02       0.74 r
+  U44/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[7]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[7]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U171/Q (AND3X1)                          0.07       0.67 f
+  U237/QN (NAND3X0)                        0.02       0.69 r
+  U238/QN (NAND2X1)                        0.03       0.72 f
+  U173/ZN (INVX0)                          0.02       0.74 r
+  U39/Q (AO22X1)                           0.05       0.79 r
+  sar_reg_reg[6]/D (DFFARX1)               0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[6]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U230/QN (NAND4X0)                        0.03       0.64 r
+  U231/Q (OA21X1)                          0.07       0.70 r
+  U232/Q (MUX21X1)                         0.06       0.76 r
+  sar_reg_reg[9]/D (DFFARX1)               0.00       0.76 r
+  data arrival time                                   0.76
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[9]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.76
+  -----------------------------------------------------------
+  slack (MET)                                         0.25
+
+
+  Startpoint: comp_out (input port clocked by clk)
+  Endpoint: sar_reg_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  input external delay                     0.30       0.42 r
+  comp_out (in)                            0.00       0.42 r
+  U223/Q (OA21X1)                          0.07       0.49 r
+  U224/QN (NOR4X0)                         0.04       0.53 f
+  U162/Q (AND3X1)                          0.07       0.60 f
+  U230/QN (NAND4X0)                        0.03       0.64 r
+  U233/Q (OA21X1)                          0.07       0.70 r
+  U234/Q (MUX21X1)                         0.06       0.76 r
+  sar_reg_reg[8]/D (DFFARX1)               0.00       0.76 r
+  data arrival time                                   0.76
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  sar_reg_reg[8]/CLK (DFFARX1)             0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.76
+  -----------------------------------------------------------
+  slack (MET)                                         0.25
+
+
+  Startpoint: digital_out_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[9]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[9]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[9]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[9] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[8]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[8]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[8]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[8] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[7]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[7]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[7]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[7] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[6]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[6]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[6]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[6] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[5]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[5]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[5]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[5] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[4]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[4]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[4]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[4] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[3]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[3]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[3]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[3] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[2]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[2]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[2]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[2] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[1]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[1]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[1]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[1] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: digital_out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: digital_out[0]
+            (output port clocked by clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  digital_out_reg[0]/CLK (DFFARX1)         0.00       0.12 r
+  digital_out_reg[0]/Q (DFFARX1)           0.16       0.28 f
+  digital_out[0] (out)                     0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  output external delay                   -0.30       0.77
+  data required time                                  0.77
+  -----------------------------------------------------------
+  data required time                                  0.77
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[30] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U17/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U5/ZN (INVX0)                     0.04       0.70 f
+  sub_47/U18/QN (NAND2X1)                  0.03       0.73 r
+  sub_47/U7/ZN (INVX0)                     0.04       0.78 f
+  sub_47/U23/QN (NAND2X1)                  0.03       0.81 r
+  sub_47/U25/Q (XNOR2X1)                   0.09       0.89 r
+  sub_47/SUM[30] (pit_top_DW01_dec_1)      0.00       0.89 r
+  U183/Q (AO22X1)                          0.05       0.94 r
+  i_reg[30]/D (DFFARX1)                    0.00       0.94 r
+  data arrival time                                   0.94
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[30]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.94
+  -----------------------------------------------------------
+  slack (MET)                                         0.06
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[31] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U17/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U5/ZN (INVX0)                     0.04       0.70 f
+  sub_47/U18/QN (NAND2X1)                  0.03       0.73 r
+  sub_47/U7/ZN (INVX0)                     0.04       0.78 f
+  sub_47/U121/QN (NAND2X1)                 0.02       0.80 r
+  sub_47/U22/Q (XNOR2X1)                   0.08       0.89 r
+  sub_47/SUM[31] (pit_top_DW01_dec_1)      0.00       0.89 r
+  U214/Q (AO22X1)                          0.05       0.94 r
+  i_reg[31]/D (DFFARX1)                    0.00       0.94 r
+  data arrival time                                   0.94
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[31]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.94
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[29] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U17/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U5/ZN (INVX0)                     0.04       0.70 f
+  sub_47/U18/QN (NAND2X1)                  0.03       0.73 r
+  sub_47/U7/ZN (INVX0)                     0.04       0.78 f
+  sub_47/U26/QN (NAND2X1)                  0.03       0.80 r
+  sub_47/U29/QN (NAND2X1)                  0.02       0.83 f
+  sub_47/U28/QN (NAND2X1)                  0.02       0.85 r
+  sub_47/SUM[29] (pit_top_DW01_dec_1)      0.00       0.85 r
+  U184/Q (AO22X1)                          0.05       0.90 r
+  i_reg[29]/D (DFFARX1)                    0.00       0.90 r
+  data arrival time                                   0.90
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[29]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.90
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[27] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U17/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U5/ZN (INVX0)                     0.04       0.70 f
+  sub_47/U30/QN (NAND2X1)                  0.03       0.74 r
+  sub_47/U32/Q (OR2X1)                     0.05       0.79 r
+  sub_47/U34/QN (NAND2X1)                  0.02       0.81 f
+  sub_47/U33/QN (NAND2X1)                  0.02       0.83 r
+  sub_47/SUM[27] (pit_top_DW01_dec_1)      0.00       0.83 r
+  U186/Q (AO22X1)                          0.05       0.88 r
+  i_reg[27]/D (DFFARX1)                    0.00       0.88 r
+  data arrival time                                   0.88
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[27]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (MET)                                         0.13
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[28] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.18       0.30 f
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.30 f
+  sub_47/U21/QN (NOR2X0)                   0.03       0.33 r
+  sub_47/U130/QN (NAND4X0)                 0.04       0.37 f
+  sub_47/U2/ZN (INVX0)                     0.04       0.41 r
+  sub_47/U19/QN (NAND2X1)                  0.04       0.45 f
+  sub_47/U6/ZN (INVX0)                     0.03       0.48 r
+  sub_47/U20/QN (NAND2X1)                  0.04       0.52 f
+  sub_47/U3/ZN (INVX0)                     0.03       0.55 r
+  sub_47/U16/QN (NAND2X1)                  0.04       0.58 f
+  sub_47/U4/ZN (INVX0)                     0.03       0.62 r
+  sub_47/U17/QN (NAND2X1)                  0.04       0.65 f
+  sub_47/U5/ZN (INVX0)                     0.03       0.69 r
+  sub_47/U18/QN (NAND2X1)                  0.04       0.72 f
+  sub_47/U7/ZN (INVX0)                     0.03       0.76 r
+  sub_47/U26/QN (NAND2X1)                  0.03       0.79 f
+  sub_47/U35/QN (NAND2X1)                  0.02       0.81 r
+  sub_47/SUM[28] (pit_top_DW01_dec_1)      0.00       0.81 r
+  U185/Q (AO22X1)                          0.05       0.86 r
+  i_reg[28]/D (DFFARX1)                    0.00       0.86 r
+  data arrival time                                   0.86
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[28]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.86
+  -----------------------------------------------------------
+  slack (MET)                                         0.15
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[26] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.18       0.30 f
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.30 f
+  sub_47/U21/QN (NOR2X0)                   0.03       0.33 r
+  sub_47/U130/QN (NAND4X0)                 0.04       0.37 f
+  sub_47/U2/ZN (INVX0)                     0.04       0.41 r
+  sub_47/U19/QN (NAND2X1)                  0.04       0.45 f
+  sub_47/U6/ZN (INVX0)                     0.03       0.48 r
+  sub_47/U20/QN (NAND2X1)                  0.04       0.52 f
+  sub_47/U3/ZN (INVX0)                     0.03       0.55 r
+  sub_47/U16/QN (NAND2X1)                  0.04       0.58 f
+  sub_47/U4/ZN (INVX0)                     0.03       0.62 r
+  sub_47/U17/QN (NAND2X1)                  0.04       0.65 f
+  sub_47/U5/ZN (INVX0)                     0.03       0.69 r
+  sub_47/U30/QN (NAND2X1)                  0.04       0.73 f
+  sub_47/U32/Q (OR2X1)                     0.04       0.77 f
+  sub_47/U37/QN (NAND2X1)                  0.02       0.79 r
+  sub_47/SUM[26] (pit_top_DW01_dec_1)      0.00       0.79 r
+  U187/Q (AO22X1)                          0.05       0.84 r
+  i_reg[26]/D (DFFARX1)                    0.00       0.84 r
+  data arrival time                                   0.84
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[26]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.84
+  -----------------------------------------------------------
+  slack (MET)                                         0.17
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[25] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U17/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U5/ZN (INVX0)                     0.04       0.70 f
+  sub_47/U39/QN (NAND2X1)                  0.03       0.73 r
+  sub_47/U42/QN (NAND2X1)                  0.02       0.75 f
+  sub_47/U41/QN (NAND2X1)                  0.02       0.77 r
+  sub_47/SUM[25] (pit_top_DW01_dec_1)      0.00       0.77 r
+  U188/Q (AO22X1)                          0.05       0.82 r
+  i_reg[25]/D (DFFARX1)                    0.00       0.82 r
+  data arrival time                                   0.82
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[25]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[23] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.16       0.28 r
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.28 r
+  sub_47/U21/QN (NOR2X0)                   0.04       0.32 f
+  sub_47/U130/QN (NAND4X0)                 0.04       0.36 r
+  sub_47/U2/ZN (INVX0)                     0.05       0.40 f
+  sub_47/U19/QN (NAND2X1)                  0.03       0.44 r
+  sub_47/U6/ZN (INVX0)                     0.04       0.48 f
+  sub_47/U20/QN (NAND2X1)                  0.03       0.51 r
+  sub_47/U3/ZN (INVX0)                     0.04       0.55 f
+  sub_47/U16/QN (NAND2X1)                  0.03       0.59 r
+  sub_47/U4/ZN (INVX0)                     0.04       0.63 f
+  sub_47/U43/QN (NAND2X1)                  0.03       0.66 r
+  sub_47/U45/Q (OR2X1)                     0.05       0.71 r
+  sub_47/U47/QN (NAND2X1)                  0.02       0.73 f
+  sub_47/U46/QN (NAND2X1)                  0.02       0.75 r
+  sub_47/SUM[23] (pit_top_DW01_dec_1)      0.00       0.75 r
+  U190/Q (AO22X1)                          0.05       0.80 r
+  i_reg[23]/D (DFFARX1)                    0.00       0.80 r
+  data arrival time                                   0.80
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[23]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.80
+  -----------------------------------------------------------
+  slack (MET)                                         0.20
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[24] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.18       0.30 f
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.30 f
+  sub_47/U21/QN (NOR2X0)                   0.03       0.33 r
+  sub_47/U130/QN (NAND4X0)                 0.04       0.37 f
+  sub_47/U2/ZN (INVX0)                     0.04       0.41 r
+  sub_47/U19/QN (NAND2X1)                  0.04       0.45 f
+  sub_47/U6/ZN (INVX0)                     0.03       0.48 r
+  sub_47/U20/QN (NAND2X1)                  0.04       0.52 f
+  sub_47/U3/ZN (INVX0)                     0.03       0.55 r
+  sub_47/U16/QN (NAND2X1)                  0.04       0.58 f
+  sub_47/U4/ZN (INVX0)                     0.03       0.62 r
+  sub_47/U17/QN (NAND2X1)                  0.04       0.65 f
+  sub_47/U5/ZN (INVX0)                     0.03       0.69 r
+  sub_47/U39/QN (NAND2X1)                  0.03       0.72 f
+  sub_47/U48/QN (NAND2X1)                  0.02       0.74 r
+  sub_47/SUM[24] (pit_top_DW01_dec_1)      0.00       0.74 r
+  U189/Q (AO22X1)                          0.05       0.79 r
+  i_reg[24]/D (DFFARX1)                    0.00       0.79 r
+  data arrival time                                   0.79
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[24]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.79
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: i_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: i_reg[22] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_top_DW01_dec_1 8000                  saed90nm_max_lth
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.12       0.12
+  i_reg[0]/CLK (DFFASX1)                   0.00       0.12 r
+  i_reg[0]/Q (DFFASX1)                     0.18       0.30 f
+  sub_47/A[0] (pit_top_DW01_dec_1)         0.00       0.30 f
+  sub_47/U21/QN (NOR2X0)                   0.03       0.33 r
+  sub_47/U130/QN (NAND4X0)                 0.04       0.37 f
+  sub_47/U2/ZN (INVX0)                     0.04       0.41 r
+  sub_47/U19/QN (NAND2X1)                  0.04       0.45 f
+  sub_47/U6/ZN (INVX0)                     0.03       0.48 r
+  sub_47/U20/QN (NAND2X1)                  0.04       0.52 f
+  sub_47/U3/ZN (INVX0)                     0.03       0.55 r
+  sub_47/U16/QN (NAND2X1)                  0.04       0.58 f
+  sub_47/U4/ZN (INVX0)                     0.03       0.62 r
+  sub_47/U43/QN (NAND2X1)                  0.04       0.66 f
+  sub_47/U45/Q (OR2X1)                     0.04       0.70 f
+  sub_47/U50/QN (NAND2X1)                  0.02       0.72 r
+  sub_47/SUM[22] (pit_top_DW01_dec_1)      0.00       0.72 r
+  U191/Q (AO22X1)                          0.05       0.77 r
+  i_reg[22]/D (DFFARX1)                    0.00       0.77 r
+  data arrival time                                   0.77
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.12       1.12
+  clock uncertainty                       -0.05       1.07
+  i_reg[22]/CLK (DFFARX1)                  0.00       1.07 r
+  library setup time                      -0.06       1.01
+  data required time                                  1.01
+  -----------------------------------------------------------
+  data required time                                  1.01
+  data arrival time                                  -0.77
+  -----------------------------------------------------------
+  slack (MET)                                         0.24
+
+
+1

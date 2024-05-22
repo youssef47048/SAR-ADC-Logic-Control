@@ -1,0 +1,1118 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Attaching to process 3546
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/pt_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libodbc.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libodbc.so.2
+Reading symbols from /lib64/libXft.so.2...Reading symbols from /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXft.so.2
+Reading symbols from /lib64/libXss.so.1...Reading symbols from /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXss.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebChannel.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebSockets.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebKitWidgets.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5WebKit.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libz.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libz.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfontconfig.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfontconfig.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkChartsCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkChartsCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonColor-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonColor-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonComputationalGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonComputationalGeometry-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonDataModel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonDataModel-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonExecutionModel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonExecutionModel-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonMath-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonMath-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonMisc-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonMisc-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonSystem-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonSystem-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonTransforms-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkCommonTransforms-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkDICOMParser-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkDICOMParser-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkDomainsChemistry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkDomainsChemistry-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkdoubleconversion-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkdoubleconversion-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkexodusII-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkexodusII-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkexpat-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkexpat-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersAMR-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersAMR-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersExtraction-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersExtraction-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersFlowPaths-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersFlowPaths-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeneral-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeneral-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeneric-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeneric-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersGeometry-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersHybrid-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersHybrid-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersHyperTree-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersHyperTree-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersImaging-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersImaging-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersModeling-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersModeling-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersParallel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersParallel-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersParallelImaging-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersParallelImaging-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersPoints-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersPoints-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersProgrammable-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersProgrammable-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSelection-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSelection-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSMP-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSMP-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSources-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersSources-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersStatistics-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersStatistics-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersTexture-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersTexture-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersTopology-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersTopology-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersVerdict-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkFiltersVerdict-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkfreetype-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkfreetype-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGeovisCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGeovisCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkgl2ps-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkgl2ps-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkglew-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkglew-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGUISupportQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGUISupportQt-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGUISupportQtSQL-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkGUISupportQtSQL-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkhdf5-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkhdf5-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkhdf5_hl-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkhdf5_hl-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingColor-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingColor-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingFourier-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingFourier-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingGeneral-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingGeneral-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingHybrid-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingHybrid-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingMath-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingMath-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingMorphological-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingMorphological-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingSources-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingSources-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingStatistics-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingStatistics-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingStencil-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkImagingStencil-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInfovisCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInfovisCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInfovisLayout-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInfovisLayout-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionImage-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionStyle-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionStyle-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionWidgets-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkInteractionWidgets-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOAMR-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOAMR-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOAsynchronous-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOAsynchronous-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOCityGML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOCityGML-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOEnSight-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOEnSight-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExodus-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExodus-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExport-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExport-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExportGL2PS-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExportGL2PS-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExportPDF-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOExportPDF-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOGeometry-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOImage-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOImport-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOImport-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOInfovis-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOInfovis-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOLegacy-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOLegacy-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOLSDyna-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOLSDyna-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMINC-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMINC-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMotionFX-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMotionFX-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMovie-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOMovie-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIONetCDF-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIONetCDF-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOOggTheora-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOOggTheora-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOParallel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOParallel-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOParallelXML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOParallelXML-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOPLY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOPLY-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOSegY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOSegY-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOSQL-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOSQL-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOTecplotTable-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOTecplotTable-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOVeraOut-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOVeraOut-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOVideo-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOVideo-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOXML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOXML-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOXMLParser-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkIOXMLParser-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkjpeg-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkjpeg-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkjsoncpp-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkjsoncpp-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibharu-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibharu-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibproj-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibproj-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibxml2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklibxml2-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkloguru-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkloguru-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklz4-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklz4-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklzma-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtklzma-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkmetaio-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkmetaio-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtknetcdf-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtknetcdf-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkogg-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkogg-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkParallelCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkParallelCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkParallelDIY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkParallelDIY-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkpng-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkpng-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkpugixml-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkpugixml-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingAnnotation-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingAnnotation-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingContext2D-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingContext2D-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingFreeType-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingFreeType-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingGL2PSOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingGL2PSOpenGL2-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingImage-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingLabel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingLabel-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingLOD-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingLOD-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingOpenGL2-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingQt-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingSceneGraph-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingSceneGraph-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingUI-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingUI-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVolume-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVolume-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVolumeOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVolumeOpenGL2-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVtkJS-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkRenderingVtkJS-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtksqlite-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtksqlite-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtksys-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtksys-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkTestingRendering-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkTestingRendering-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtktheora-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtktheora-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtktiff-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtktiff-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkverdict-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkverdict-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsContext2D-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsContext2D-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsCore-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsInfovis-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsInfovis-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkViewsQt-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkWrappingTools-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkWrappingTools-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkzlib-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/libvtkzlib-9.0.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libxcb-glx.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libxcb-glx.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libxcb-glx.so.0
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[New LWP 4486]
+[New LWP 4201]
+[New LWP 3913]
+[New LWP 3895]
+[New LWP 3894]
+[New LWP 3892]
+[New LWP 3719]
+[New LWP 3715]
+[New LWP 3714]
+[New LWP 3713]
+[New LWP 3712]
+[New LWP 3711]
+[New LWP 3710]
+[New LWP 3709]
+[New LWP 3708]
+[New LWP 3620]
+[New LWP 3596]
+[New LWP 3581]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Loaded symbols for /lib64/libpthread.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpython3.6m.so.1.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpython3.6m.so.1.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.12...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.12
+Reading symbols from /lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libutil.so.1
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libblkid.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libarrow.so.16...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libarrow.so.16
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libparquet.so.16...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libparquet.so.16
+Reading symbols from /lib64/libmagic.so.1...Reading symbols from /lib64/libmagic.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmagic.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libstdc++.so.6...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libstdc++.so.6
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgomp.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgomp.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbcload-O.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbcload-O.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libAlembic.so.1.8...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libAlembic.so.1.8
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsthermal_all.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsthermal_all.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libHalf-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libHalf-2_5.so.25
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIex-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIex-2_5.so.25
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIexMath-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIexMath-2_5.so.25
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIlmThread-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libIlmThread-2_5.so.25
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libImath-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libImath-2_5.so.25
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libQC2RcfxAPI.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libQC2RcfxAPI.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsmTools.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsmTools.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbbsupport.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbbsupport.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpardiso2.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpardiso2.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgfortran.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgfortran.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libprotobuf.so.19...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libprotobuf.so.19
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcholmod.so.3...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcholmod.so.3
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsuitesparseconfig.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsuitesparseconfig.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcolamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcolamd.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libccolamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libccolamd.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libamd.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcamd.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libmetis.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libmetis.so
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdl.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpng16.so.16...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libpng16.so.16
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libRtxStable.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libRtxStable.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnffr.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnffr.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libNPI.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libNPI.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnffw.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnffw.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnsys.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libnsys.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libhwloc.so.15...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libhwloc.so.15
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/librt.so.1
+Reading symbols from /lib64/libncurses.so.5...Reading symbols from /lib64/libncurses.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libncurses.so.5
+Reading symbols from /lib64/libtinfo.so.5...Reading symbols from /lib64/libtinfo.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libtinfo.so.5
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libuuid.so.1
+Reading symbols from /lib64/libnuma.so.1...Reading symbols from /lib64/libnuma.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnuma.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Widgets.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Svg.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Svg.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Gui.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Gui.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5X11Extras.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5PrintSupport.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Network.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Network.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Xml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Xml.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Sql.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Sql.so.5
+Reading symbols from /lib64/libX11.so.6...Reading symbols from /lib64/libX11.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11.so.6
+Reading symbols from /lib64/libxcb.so.1...Reading symbols from /lib64/libxcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libxcb.so.1
+Reading symbols from /lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libm.so.6
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgcc_s.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libgcc_s.so.1
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfreetype.so.6...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libfreetype.so.6
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrender.so.1
+Reading symbols from /lib64/libXext.so.6...Reading symbols from /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXext.so.6
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Qml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Qml.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxslt.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxslt.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxslt.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxml2.so.2...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libxml2.so.2
+Reading symbols from /lib64/libsqlite3.so.0...Reading symbols from /lib64/libsqlite3.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsqlite3.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicui18n.so.50...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicui18n.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicui18n.so.50
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicuuc.so.50...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicuuc.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicuuc.so.50
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicudata.so.50...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicudata.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libicudata.so.50
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Sensors.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Positioning.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5MultimediaWidgets.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Multimedia.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5OpenGL.so.5
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcomposite.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libjpeg.so.62...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libjpeg.so.62...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libjpeg.so.62
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libpng15.so.15...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libpng15.so.15
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libwebp.so.4...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libwebp.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libwebp.so.4
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Quick.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5Quick.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5QmlModels.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/libQt5QmlModels.so.5
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libexpat.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLX.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLX.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libOpenGL.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libOpenGL.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libOpenGL.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libglapi.so.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libglapi.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libsensors.so.4...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libsensors.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libsensors.so.4
+Reading symbols from /lib64/libXau.so.6...Reading symbols from /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXau.so.6
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libssl.so.1.0.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libssl.so.1.0.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcrypto.so.1.0.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libcrypto.so.1.0.0
+Reading symbols from /lib64/libcrypto.so.10...Reading symbols from /lib64/libcrypto.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcrypto.so.10
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libssl.so.10...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libssl.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/export/libssl.so.10
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libbz2.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_serialization-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_serialization-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_iostreams-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_iostreams-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_system-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_system-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_thread-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libsnps_boost_1_77_0_thread-mt.so.1.77.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libLibScanFEcmdSTopo.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libLibScanFEcmdSTopo.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libquadmath.so.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libquadmath.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libvfs.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib2/libvfs.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libharfbuzz.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libharfbuzz.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../export/libharfbuzz.so.0
+Reading symbols from /lib64/libgssapi_krb5.so.2...Reading symbols from /lib64/libgssapi_krb5.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgssapi_krb5.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../../shlib/liblzma.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../../shlib/liblzma.so.5
+Reading symbols from /lib64/libpulse-mainloop-glib.so.0...Reading symbols from /lib64/libpulse-mainloop-glib.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse-mainloop-glib.so.0
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse.so.0
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libglib-2.0.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLdispatch.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/vtk/../export/libGLdispatch.so.0
+Reading symbols from /lib64/libkrb5.so.3...Reading symbols from /lib64/libkrb5.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5.so.3
+Reading symbols from /lib64/libcom_err.so.2...Reading symbols from /lib64/libcom_err.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcom_err.so.2
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libk5crypto.so.3...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libk5crypto.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libk5crypto.so.3
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libScanFECommonSTopo.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libScanFECommonSTopo.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libStlUtilities.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libStlUtilities.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/liblpsolve55.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/liblpsolve55.so
+Reading symbols from /lib64/libgraphite2.so.3...Reading symbols from /lib64/libgraphite2.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgraphite2.so.3
+Reading symbols from /lib64/libkrb5support.so.0...Reading symbols from /lib64/libkrb5support.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5support.so.0
+Reading symbols from /lib64/libkeyutils.so.1...Reading symbols from /lib64/libkeyutils.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkeyutils.so.1
+Reading symbols from /lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libresolv.so.2
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/pulseaudio/libpulsecommon-10.0.so
+Reading symbols from /lib64/libcap.so.2...Reading symbols from /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcap.so.2
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-1.so.3
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpcre.so.1
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libselinux.so.1
+Reading symbols from /lib64/libX11-xcb.so.1...Reading symbols from /lib64/libX11-xcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11-xcb.so.1
+Reading symbols from /lib64/libICE.so.6...Reading symbols from /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libICE.so.6
+Reading symbols from /lib64/libSM.so.6...Reading symbols from /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libSM.so.6
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXtst.so.6
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsystemd.so.0
+Reading symbols from /lib64/libwrap.so.0...Reading symbols from /lib64/libwrap.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libwrap.so.0
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsndfile.so.1
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libasyncns.so.0
+Reading symbols from /lib64/libattr.so.1...Reading symbols from /lib64/libattr.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libattr.so.1
+Reading symbols from /lib64/libXi.so.6...Reading symbols from /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXi.so.6
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblz4.so.1
+Reading symbols from /lib64/libgcrypt.so.11...Reading symbols from /lib64/libgcrypt.so.11...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgcrypt.so.11
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgpg-error.so.0
+Reading symbols from /lib64/libdw.so.1...Reading symbols from /lib64/libdw.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdw.so.1
+Reading symbols from /lib64/libnsl.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnsl.so.1
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgsm.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/../../shlib/libFLAC.so.8...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/../../shlib/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/../qt/../../shlib/libFLAC.so.8
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbisenc.so.2
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbis.so.0
+Reading symbols from /lib64/libogg.so.0...Reading symbols from /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libogg.so.0
+Reading symbols from /lib64/libelf.so.1...Reading symbols from /lib64/libelf.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libelf.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbbmalloc.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbbmalloc.so.2
+Reading symbols from /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_files.so.2
+Reading symbols from /lib64/libnss_dns.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_dns.so.2
+Reading symbols from /lib64/libnss_myhostname.so.2...Reading symbols from /lib64/libnss_myhostname.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_myhostname.so.2
+Reading symbols from /lib64/libudev.so.1...Reading symbols from /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libudev.so.1
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-glib-1.so.2
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgio-2.0.so.0
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgobject-2.0.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib_python/libffi.so.6...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib_python/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib_python/libffi.so.6
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgmodule-2.0.so.0
+Reading symbols from /lib64/libmount.so.1...Reading symbols from /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmount.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_md5.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_md5.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha1.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha1.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha256.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha256.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha512.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha512.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-09e95953.3.13.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-09e95953.3.13.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/etc/Python/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/libqxcb.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/libqxcb.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-icccm.so.4...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-icccm.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-icccm.so.4
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-image.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-image.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-image.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shm.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shm.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shm.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-randr.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-randr.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-randr.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render-util.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render-util.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render-util.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-render.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shape.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shape.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-shape.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-sync.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-sync.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-sync.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xkb.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xkb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xkb.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinput.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinput.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-xinput.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon.so.0...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxkbcommon.so.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-util.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-util.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../export/libxcb-util.so.1
+Reading symbols from /lib64/libXcursor.so.1...Reading symbols from /lib64/libXcursor.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcursor.so.1
+Reading symbols from /lib64/libXfixes.so.3...Reading symbols from /lib64/libXfixes.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXfixes.so.3
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqgif.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqgif.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqicns.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqicns.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqico.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqico.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqjpeg.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqjpeg.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqmng.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqmng.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/../../export/libmng.so.1...Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/../../export/libmng.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/../../export/libmng.so.1
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqsvg.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqsvg.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqtga.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqtga.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqtiff.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqtiff.so
+Reading symbols from /lib64/libtiff.so.5...Reading symbols from /lib64/libtiff.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libtiff.so.5
+Reading symbols from /lib64/libjbig.so.2.0...Reading symbols from /lib64/libjbig.so.2.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libjbig.so.2.0
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqwbmp.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqwbmp.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqwebp.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/imageformats/libqwebp.so
+Reading symbols from /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/xcbglintegrations/libqxcb-glx-integration.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/xcbglintegrations/libqxcb-glx-integration.so
+0x00007f90b6444659 in waitpid () from /lib64/libc.so.6
+Missing separate debuginfos, use: debuginfo-install bzip2-libs-1.0.6-13.el7.x86_64 dbus-glib-0.100-7.el7.x86_64 dbus-libs-1.10.24-15.el7.x86_64 elfutils-libelf-0.176-5.el7.x86_64 elfutils-libs-0.176-5.el7.x86_64 expat-2.1.0-15.el7_9.x86_64 file-libs-5.11-37.el7.x86_64 glib2-2.56.1-9.el7_9.x86_64 glibc-2.17-326.el7_9.x86_64 graphite2-1.3.10-1.el7_3.x86_64 gsm-1.0.13-11.el7.x86_64 jbigkit-libs-2.0-11.el7.x86_64 keyutils-libs-1.5.8-3.el7.x86_64 krb5-libs-1.15.1-55.el7_9.x86_64 libICE-1.0.9-9.el7.x86_64 libSM-1.2.2-2.el7.x86_64 libX11-1.6.7-4.el7_9.x86_64 libXScrnSaver-1.2.2-6.1.el7.x86_64 libXau-1.0.8-2.1.el7.x86_64 libXcomposite-0.4.4-4.1.el7.x86_64 libXcursor-1.1.15-1.el7.x86_64 libXext-1.3.3-3.el7.x86_64 libXfixes-5.0.3-1.el7.x86_64 libXft-2.3.2-2.el7.x86_64 libXi-1.7.9-1.el7.x86_64 libXrender-0.9.10-1.el7.x86_64 libXtst-1.2.3-1.el7.x86_64 libasyncns-0.8-7.el7.x86_64 libattr-2.4.46-13.el7.x86_64 libblkid-2.23.2-65.el7_9.1.x86_64 libcap-2.22-11.el7.x86_64 libcom_err-1.42.9-19.el7.x86_64 libgcrypt-1.5.3-14.el7.x86_64 libgpg-error-1.12-3.el7.x86_64 libmount-2.23.2-65.el7_9.1.x86_64 libogg-1.3.0-7.el7.x86_64 libselinux-2.5-15.el7.x86_64 libsndfile-1.0.25-12.el7_9.1.x86_64 libtiff-4.0.3-35.el7.x86_64 libuuid-2.23.2-65.el7_9.1.x86_64 libvorbis-1.3.3-8.el7.1.x86_64 libxcb-1.13-1.el7.x86_64 lz4-1.8.3-1.el7.x86_64 ncurses-libs-5.9-14.20130511.el7_4.x86_64 numactl-libs-2.0.12-5.el7.x86_64 openssl-libs-1.0.2k-26.el7_9.x86_64 pcre-8.32-17.el7.x86_64 pulseaudio-libs-10.0-6.el7_9.x86_64 pulseaudio-libs-glib2-10.0-6.el7_9.x86_64 sqlite-3.7.17-8.el7_7.1.x86_64 systemd-libs-219-78.el7_9.9.x86_64 tcp_wrappers-libs-7.6-77.el7.x86_64
+(gdb) (gdb) 
+Thread 19 (Thread 0x7f90a99ff700 (LWP 3581)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f90caa73ea5 in SNPSle_9cd314246081122bc1d02346f13dd392f4d8e675ac9048e7 () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libarrow.so.16
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 18 (Thread 0x7f90a8bcf700 (LWP 3596)):
+#0  0x00007f90cb7c5e9d in nanosleep () at /lib64/libpthread.so.0
+#1  0x00000000145482a6 in SNPSee_d082cde5977e413db73d0ca12ca1094d07b137c80ac8b0285017be8fc378ea2522058640e5eace887b101d2ed2e0e8d17e3fb04333f8b960cdbe730d77814416bd509d4117f0492491f63fef0a47703dfab52e9a2e6c78e51ade4d570771377d ()
+#2  0x00007f90c96ae9c0 in SNPSle_f6b8248d61bec50514df5b576d8029fdbc7e834c9a6ab83ef6f9818f469a618c () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libstdc++.so.6
+#3  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#4  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 17 (Thread 0x7f90a83ce700 (LWP 3620)):
+#0  0x00007f90b6474b43 in select () at /lib64/libc.so.6
+#1  0x000000001c89fd86 in SNPSee_554ec7c90557bab679d871cd58526530 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 16 (Thread 0x7f90a6b4f700 (LWP 3708)):
+#0  0x00007f90cb7c2de2 in pthread_cond_timedwait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00000000141482cb in SNPSee_23e791ebed4eefeffb2f914fd807e1917a0938c57a6ac6f1 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 15 (Thread 0x7f90a634e080 (LWP 3709)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 14 (Thread 0x7f90a56b3080 (LWP 3710)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 13 (Thread 0x7f90a4a18080 (LWP 3711)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 12 (Thread 0x7f90a3d7d080 (LWP 3712)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 11 (Thread 0x7f90a30e2080 (LWP 3713)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 10 (Thread 0x7f90a2447080 (LWP 3714)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001414f5a8 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 9 (Thread 0x7f90a17ac700 (LWP 3715)):
+#0  0x00007f90cb7c2de2 in pthread_cond_timedwait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x000000001cbe5c85 in SNPSee_b71249bc6c685971abb10b7440ee764236074df731c84333005120aa2875f0e4cc9ee18b4cf661bcc64f588d87d212421c3c40d6cdab81e9 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 8 (Thread 0x7f90a0ca8700 (LWP 3719)):
+#0  0x00007f90b6477e29 in syscall () at /lib64/libc.so.6
+#1  0x00007f90cb44bd6c in SNPSle_a2e58ed30c9b1003751fd53ab587caac26b6948a216105b9648652fe3040d478ed2099b584f6aa37 () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.12
+#2  0x00007f90cb445a48 in SNPSle_a2e58ed30c9b1003751fd53ab587caacda05d616f2cccd92dfee012f35ece435bc693db1512c7f02465c21be10da1f0415a9e6f40323378a () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/libtbb.so.12
+#3  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#4  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 7 (Thread 0x7f909d612700 (LWP 3892)):
+#0  0x00007f90b6472ddd in poll () at /lib64/libc.so.6
+#1  0x00007f90b6c74022 in _xcb_conn_wait () at /lib64/libxcb.so.1
+#2  0x00007f90b6c75c6f in xcb_wait_for_event () at /lib64/libxcb.so.1
+#3  0x00007f9092fc6858 in  () at /eda/synopsys/prime/V-2023.12/linux64/pt/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5
+#4  0x00007f90b730ebb6 in  () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#5  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#6  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#7  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 6 (Thread 0x7f9090971700 (LWP 3894)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f90cc4b0bf3 in glPrimitiveBoundingBox () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1
+#2  0x00007f90cc4b0688 in glPrimitiveBoundingBox () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1
+#3  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#4  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 5 (Thread 0x7f9090170700 (LWP 3895)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f90cc4b0bf3 in glPrimitiveBoundingBox () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1
+#2  0x00007f90cc4b0688 in glPrimitiveBoundingBox () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/mesa/libGL.so.1
+#3  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#4  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 4 (Thread 0x7f908ee8c700 (LWP 3913)):
+#0  0x00007f90b6474b43 in select () at /lib64/libc.so.6
+#1  0x000000001cf1969a in SNPSee_949a94d588f852eac5852cc21ecfef1356c8f320f4915cd3 ()
+#2  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f908dc60700 (LWP 4201)):
+#0  0x00007f90cb7c5e9d in nanosleep () at /lib64/libpthread.so.0
+#1  0x0000000008866463 in SNPSee_57aa06afe31f310512a9cc49ce7b46c129db833eed55d1c48374fef3f761fcfe1be46a4d681b9449401a38d938dc0213 ()
+#2  0x00007f90b7311d1b in  () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#3  0x00007f90b730ebb6 in  () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#4  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#6  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f908e664700 (LWP 4486)):
+#0  0x00007f90cb7c2a35 in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f90b7314a67 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#2  0x00007f90b84c040a in  () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Widgets.so.5
+#3  0x00007f90b730ebb6 in  () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#4  0x000000001ca8a9bb in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007f90cb7beea5 in start_thread () at /lib64/libpthread.so.0
+#6  0x00007f90b647db0d in clone () at /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f90aa61a780 (LWP 3546)):
+#0  0x00007f90b6444659 in waitpid () at /lib64/libc.so.6
+#1  0x00007f90b63c1f62 in do_system () at /lib64/libc.so.6
+#2  0x00007f90b63c2311 in system () at /lib64/libc.so.6
+#3  0x000000001cab2afd in SNPSee_4f1eca636f186904 ()
+#4  0x000000001ca91fd2 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#5  0x000000001ca939c2 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#6  0x000000000606ef5c in SNPSee_b809e85fd48ae9cb7334117cf092be43fdbe4c9ef87aef20aa940e08182cf0edbf47ade14f482cd4 ()
+#7  0x00000000145464b3 in SNPSee_7b452a55e5f226236b345e346450c399578aab8ec8f958335ae5aeadd92698b2725b36bf012ac14e18e6bc31f83a7ee8 ()
+#8  0x000000001caebefd in SNPSee_b5b74bb29e23928e271a046254d5c62e ()
+#9  0x000000001c228d8d in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#10 0x00007f90cb7c6630 in <signal handler called> () at /lib64/libpthread.so.0
+#11 0x00000000118bf5d6 in SNPSee_3538ca1edb869c4c42e8cd653921a589 ()
+#12 0x00000000109e4649 in SNPSee_fd939c75296255f4d538f6da1e1f5e54287173312e4900f8eda1743ad884fffe630c1ace69fc4475 ()
+#13 0x000000001017c829 in SNPSee_17b0d88ac117691b30b223717549de0c104e675ce209745e6fffde0fb9730c3c ()
+#14 0x000000001017caec in SNPSee_fbf8422869e54182d0c8dbaed34b8c9593607503f2e16c201166d217809826e40b230918f9aab6b9cb767fa5280a371429580e53592b68f4a0e9f7aadd146fdbb6e449830e10ba75a5d019b02f83f0fe1be23fc32f55df0f24407ad45f7b4e3815d6540187e9af216d0aa96a46badfb474eff477ba5c948c3913c98cf6bf58776661ac54eaa4a2cf ()
+#15 0x000000001017d2db in SNPSee_98be30164a95153b8a425b8ffbdb4407ab2443af809b1a16aa42f4e26e035b3cfe110ee0e61997a84e71700c39aa827fba26b1a6cfe010d9edb470855859467335032ee2618fb2271b8fc3e1d4d0eacbbc97114741a6e98fade665b91b5d23229a8be8f6508f03486ae67fa14b60f8d3b5a19a092f460c1f ()
+#16 0x00000000101a21a9 in SNPSee_651b16d1510f21c75bee650a3923f544f956d3a06d228728c0179a1e845d1f2002fc2c5cc33ec4d6883c23583962c887 ()
+#17 0x00000000101a240f in SNPSee_651b16d1510f21c75bee650a3923f544f956d3a06d228728aa93496c25199ba8 ()
+#18 0x000000000661c8e7 in SNPSee_5920d3306ea01fac405181b037cce2ceed77bfa3500a13c820d921052710ab129f6c6001b06496209c6dff154231eb8558b8ae5064e473f46ee2fd6ee18453c0f7de88818aa610f5f3f8c7de42ab90f144eeb6c0a5380a13c221631086d4476f39a79ac4ca0476a9755824c480dd4138e5630ec1a03c9a1a670d5375fd7155529785ac393c0f6bbe ()
+#19 0x00000000067960bf in SNPSee_e4d5e0952e5058a6f57030c4f393b040e0f3104c9ba60c7275a26d510b0afd135da4abd16b996399951de33a31620b8d6ae3a72d629dd7eb7978d94da5531816d22648bc0a68d7988c62ba0719a7ce4ad06e458fa2b1f2359e6ec925bc68c618ac9d847f338bb1dd2f0c095c1e82c418f0150fd3de2763705748dc145745bf38e084c60d64baa2de94a55c42814c679e ()
+#20 0x0000000006790b0b in SNPSee_aee1da5aa2f0a99870c60a3b5f48ef8bc1ab32d490f2d0e5f43fe8f01e1ba13680122708dd328fa6c9ccbbbbd91d09726e40048887ca84d92573c7cf42c377d1 ()
+#21 0x0000000006792973 in SNPSee_aee1da5aa2f0a99870c60a3b5f48ef8bc1ab32d490f2d0e5cc963b4aed9a49d8319f8d4858123c976641c9c852540f07 ()
+#22 0x00000000067b0c2d in SNPSee_3b4c4e792ed22e27a3ad94d84c6da7001aaf2dece3b517343e1d32d8aa195121d300f407631e4338021f25c272a03913b4e7c7f8de9de21266134ab93f712574 ()
+#23 0x000000000775e7de in SNPSee_9dcc24b5c750fa781914ce252264e415a290a6e7fdd998dd8924c412e61c45a259799e2a7cf73d704f811f8c87d5e9df2fd4cf2737e5b3abba392a81071789ded5be65c127e10c7360a7c103e5d771eaec378a37e25cdda0710b2eb8d6a97c6a ()
+#24 0x000000000775b7fb in SNPSee_2e42c1a4491fddda737fcaf13e14bb353255121e9313ded4cfe6768960dd7c341fe7fb696c3a8cb856d376a36b1c55b92a5e9164c6a6945f1baebd6530a19ab1835c6760304faacc8abd3a34741592d5605353faa894363f ()
+#25 0x000000000658eb80 in SNPSee_a7fcd859fbf972c9125ec9bf40f6be78902b4fee115c3fc28f1887aff0d28a06e789b51c2e8a5252b91333b5adcaab6e6e154b2ca02029c8 ()
+#26 0x00000000130bcaae in SNPSee_089d811fed4ee73882c4715b516d5a1a31b5cdfd33d4369d4e9a9970037ce335 ()
+#27 0x00000000130c0e95 in SNPSee_089d811fed4ee73882c4715b516d5a1ace9c327e1937b964 ()
+#28 0x00000000130475aa in SNPSee_9d4c051db655aa51b7f83a88821d58cdbaa87a9ee4dc6447 ()
+#29 0x00000000091be070 in SNPSee_00d18db03e2982e8233127bf40a39e42f1ef5cd83a9b24ac23c48ecfdda1dc23cb05721714cf6a4bf0f570de810308b9b7015f178cda5a78 ()
+#30 0x0000000014fbd795 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#31 0x0000000015034802 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#32 0x000000001cdfa75c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#33 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#34 0x000000001ce015bf in SNPSee_a00aeeb47fd325df3eff4946e57739a1 ()
+#35 0x000000001505445e in SNPSee_5b9e0c983f97901fa4e0af164abe7efeb24c5f4c6136879c869b2b88ca4e26329cbb10d1a609855d ()
+#36 0x000000001500cfa2 in SNPSee_59511b0144537c36c6614840eb25b067 ()
+#37 0x000000001502181f in SNPSee_dfcfd18c870f576645dec230cc55940481eea9a4962927b3b2419a5f9f3803d6e6d6151e8a6657b75c63db485ae230e97b8a0dd27c2cdfedd6e7ab8b3504080f ()
+#38 0x0000000015034802 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#39 0x000000001cdfa75c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#40 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#41 0x000000001502f564 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#42 0x0000000009f9392d in SNPSee_7f63941794b9960f54bff0cf8da8a16f8eecfc83c5bdc279970a6d3d47d7b22d09b4788edfd95117f2bbcfa6a747d75fa3f94a14224fe92f ()
+#43 0x0000000014fbd795 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#44 0x0000000015034802 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#45 0x000000001cdfa75c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#46 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#47 0x000000001cea3163 in SNPSee_210f394b64f552a09d6ed704e47bd242 ()
+#48 0x0000000014011973 in SNPSee_7dc6b42556e68d76ac2d00563f1b2d477be04b9f9dfcf99c6c26d4857c515a65b52f489b36463b928aba836ba482f28bcb43aef19b16ce144a539171dd10253b ()
+#49 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#50 0x000000001502f564 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#51 0x00000000081d3118 in SNPSee_bf47f8c354012225294e8116109cb5d025f4ccb7f287ad59c2366d27ef082a7abe934ab21f6bb090d48f7368a4129526962b5f385b08867de66d0440d3888337d8208e9ee5c4c9cb ()
+#52 0x00000000081b3ac5 in SNPSee_848f53926cc7d21a0b1a0e3cec9d3ef03d79fae4f741b2beb1d9e61bc8469679467712e699595aba26463d97eba60e22e02b598c8b482ec2d9046bfa95f0f185 ()
+#53 0x00000000081bf100 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d09b1487aa013d26f835ff7ccd94ffb63758abf28604ccf68 ()
+#54 0x00000000081bf5d7 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24ddc44ac444ffd24dab81817742939461558b86efc9882e060f5cf6799b4197ba760a948a9120b34f41acf4fa4287f35e8 ()
+#55 0x00000000081bfe3a in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d198741dbd99eb01272a55ba76ee2abd7563348609c8b2952ab7d3e71c5dc81c718aa12a98dfae9b5630d0c2fda34916be6c498847f4129e9a5f1fbcdd8c6a901 ()
+#56 0x00000000081c003e in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d0b90ac4a4483f6665465d7c37ec4ce71313cfc0a471575a79ba413633ac1537032eb8775f5ebb55f6021eb7118e1e33a66a40a742570a303b3cdb1e9fad8ae33 ()
+#57 0x0000000007ee24d6 in SNPSee_7a8885c2f6556168071b88b2eb90755c65c374c86d1129feecfa625a353cdb78046fbe5043f441244971b185370081cd0259296d665dba50 ()
+#58 0x0000000007edf66e in SNPSee_1479ea9da6ade0d59e3f996cbe45b407081f9d63caf21800718660f67a5d8eb5e6ef745a697f55b2e993508a4edf496bece37739206a6fa8df09b80a8ecd626f ()
+#59 0x0000000015077b19 in SNPSee_b33c09d91ce56faf32f307b3d0d7bfe6a81ece2db4e646fc7bfea8b89aa8d21c72b1b5fed030f4a7deda4e3278b32b4526a3d89237fa738f85fb51d28c1446d9b729f7d279808157 ()
+#60 0x0000000015034802 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#61 0x000000001cdfa75c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#62 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#63 0x000000001cea3163 in SNPSee_210f394b64f552a09d6ed704e47bd242 ()
+#64 0x0000000014011973 in SNPSee_7dc6b42556e68d76ac2d00563f1b2d477be04b9f9dfcf99c6c26d4857c515a65b52f489b36463b928aba836ba482f28bcb43aef19b16ce144a539171dd10253b ()
+#65 0x000000001cdff7d5 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#66 0x000000001cea1034 in SNPSee_e90acbbdf8c656c898db7186881c4c18f0a07e70af506669 ()
+#67 0x000000001502f8c4 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#68 0x00000000081d317d in SNPSee_bf47f8c354012225294e8116109cb5d025f4ccb7f287ad59c2366d27ef082a7abe934ab21f6bb090d48f7368a4129526962b5f385b08867de66d0440d3888337d8208e9ee5c4c9cb ()
+#69 0x00000000081b3ac5 in SNPSee_848f53926cc7d21a0b1a0e3cec9d3ef03d79fae4f741b2beb1d9e61bc8469679467712e699595aba26463d97eba60e22e02b598c8b482ec2d9046bfa95f0f185 ()
+#70 0x00000000081bf100 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d09b1487aa013d26f835ff7ccd94ffb63758abf28604ccf68 ()
+#71 0x00000000081bf5d7 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24ddc44ac444ffd24dab81817742939461558b86efc9882e060f5cf6799b4197ba760a948a9120b34f41acf4fa4287f35e8 ()
+#72 0x00000000081bfe3a in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d198741dbd99eb01272a55ba76ee2abd7563348609c8b2952ab7d3e71c5dc81c718aa12a98dfae9b5630d0c2fda34916be6c498847f4129e9a5f1fbcdd8c6a901 ()
+#73 0x00000000081c003e in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d0b90ac4a4483f6665465d7c37ec4ce71313cfc0a471575a79ba413633ac1537032eb8775f5ebb55f6021eb7118e1e33a66a40a742570a303b3cdb1e9fad8ae33 ()
+#74 0x00000000080e4cd6 in SNPSee_cee89af855b065f5a7112c1049d49afa23914a0a05558eccd7bbe747538c2ef3deaad79f2f6e6fcd8186eca784d8cddcc88e18b3a4fdfb36a8a6225f8533cae4 ()
+#75 0x0000000008050e45 in SNPSee_552faa2961b0203d511d26fd7c212d5825aa061095dcfb3d32ef2630a56201869356a5f28fb781f900a770b9c41f303b ()
+#76 0x0000000008070527 in SNPSee_552faa2961b0203d511d26fd7c212d580f296f720442b991201e9c992f9172d6652842a326f14ce2979a98354b61df1562bbdc72d08220b973fc63c40bbde597ca613410901106160ccd58a6fdc0d887 ()
+#77 0x00007f90b7521386 in QObject::event(QEvent*) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#78 0x00007f90b8290c72 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Widgets.so.5
+#79 0x00007f90b8299566 in QApplication::notify(QObject*, QEvent*) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Widgets.so.5
+#80 0x0000000008101eaf in SNPSee_9886f32bf8214536b53c393b333fc878d18fb2e7442b5d701a467a20027ebe559ea168b7367225d3e7a2f3be40b9f863 ()
+#81 0x00007f90b74f4e81 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#82 0x00007f90b74f7720 in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#83 0x00007f90b7549bb1 in QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#84 0x0000000006dfbfef in SNPSee_022a2517f3563cbec2b5b42fedeb3dda68298addcf6014c77180d8caa827bd35279c339b109c845b928007e791d4668ff5d311bfb9e94450ab3ccaa8ebfc54a950b981701765173873c40273f1516ffa5352ef056534af68 ()
+#85 0x0000000006d046eb in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#86 0x00007f90b74f3b6b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#87 0x00007f90b74fb86e in QCoreApplication::exec() () at /eda/synopsys/prime/V-2023.12/linux64/syn/bin/../../pt/shlib/qt/libQt5Core.so.5
+#88 0x0000000008080dab in SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c ()
+#89 0x00000000060688d1 in SNPSee_5a24f30b88271223 ()
+#90 0x00007f90b63a1555 in __libc_start_main () at /lib64/libc.so.6
+#91 0x0000000006068029 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /eda/synopsys/prime/V-2023.12/linux64/syn/bin/pt_shell_exec, process 3546
+[Inferior 1 (process 3546) detached]
+(gdb) 

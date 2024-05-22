@@ -1,0 +1,638 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version V-2023.12 for linux64 - Nov 27, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+Initializing gui preferences from file  /home/vlsi/.synopsys_dc_gui/preferences.tcl
+Current time:       Mon May  6 06:28:33 2024
+Hostname:           elc-v1111111-lnx
+CPU Model:          AMD E1-7010 APU with AMD Radeon R2 Graphics
+CPU Details:        Cores = 2 : Sockets = 1 : Cache Size = 1024 KB : Freq = 1.50 GHz
+OS:                 Linux 3.10.0-1160.108.1.el7.x86_64
+RAM:                  2 GB (Free   0 GB)
+Swap:                13 GB (Free  13 GB)
+Work Filesystem:    /home mounted to /dev/mapper/centos-home
+Tmp Filesystem:     / mounted to /dev/mapper/centos-root
+Work Disk:          184 GB (Free 183 GB)
+Tmp Disk:           299 GB (Free  51 GB)
+
+CPU Load: 15%, Ram Free: 0 GB, Swap Free: 13 GB, Work Disk Free: 183 GB, Tmp Disk Free: 51 GB
+dc_shell> start_gui
+dc_shell> uplevel #0 source /home/vlsi/Synopsys/project/project_sar/syn/syn.tcl
+Running PRESTO HDLC
+Compiling source file ../rtl/pit_top.v
+Presto compilation completed successfully.
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+Loading db file '/eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db'
+Loading db file '/eda/synopsys/syn/V-2023.12/libraries/syn/standard.sldb'
+  Loading link library 'saed90nm_max_lth'
+  Loading link library 'gtech'
+Error: Cannot find the design 'pit_top' in the library 'work'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+reset_design
+Error: Current design is not defined. (UID-4)
+0
+create_clock -name clk -period 2 [get_ports clk]
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+set_input_delay -max 0.3 -clock [get_clocks clk] [remove_from_collection [all_inputs] [get_ports clk]]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_output_delay -max 0.3 -clock [get_clocks clk] [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty 0.05 [get_clocks] # 50 pico
+Error: Current design is not defined. (UID-4)
+Error: Can't find clocks matching '*'. (UID-109)
+Error: extra positional option '#' (CMD-012)
+Error: extra positional option '50' (CMD-012)
+Error: extra positional option 'pico' (CMD-012)
+set_clock_latency -source 0.02  [get_clocks clk]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_latency -network 0.1 [get_clocks clk]
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: unknown option '-network' (CMD-010)
+set_false_path -hold -from [remove_from_collection [all_inputs] [get_ports clk]]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+set_false_path -hold -to [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+set_min_library  saed90nm_max_lth.db -min_version saed90nm_min_nt.db 
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_min_nt.db'
+1
+set_wire_load_model -name "8000" -library saed90nm_max_lth
+Error: Current design is not defined. (UID-4)
+0
+set_wire_load_mode enclosed
+Error: Current design is not defined. (UID-4)
+0
+set_load -max [expr {2 * [load_of saed90nm_max_lth/NBUFFX8/INP]}] [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'objects' must have 1 elements. (CMD-036)
+0
+set_driving_cell -no_design_rule -max -lib_cell TNBUFFX1 [remove_from_collection [all_inputs] [get_ports clk]]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list 'port_list' must have 1 elements. (CMD-036)
+0
+group_path -name INPUTS -from [remove_from_collection [all_inputs] [get_ports clk]]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'clk'. (UID-109)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+group_path -name OUTPUTS -to [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+group_path -name COMB -from [all_inputs] -to [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+dc_shell> uplevel #0 source /home/vlsi/Synopsys/project/project_sar/syn/syn.tcl
+Running PRESTO HDLC
+Compiling source file ../rtl/pit_top.v
+Presto compilation completed successfully.
+  Loading link library 'saed90nm_max_lth'
+Running PRESTO HDLC
+
+Statistics for case statements in always block at line 21 in file
+	'../rtl/pit_top.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            29            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine pit_top line 21 in file
+		'../rtl/pit_top.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   digital_out_reg   | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       EOC_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        i_reg        | Flip-flop |  30   |  Y  | N  | Y  | N  | N  | N  | N  |
+|        i_reg        | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     sar_reg_reg     | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (pit_top)
+Elaborated 1 design.
+Current design is now 'pit_top'.
+Current design is 'pit_top'.
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12
+Date:        Mon May  6 06:35:48 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               1
+    Cells do not drive (LINT-1)                                     1
+--------------------------------------------------------------------------------
+
+Information: Use the 'check_design' command for 
+	 more information about warnings. (LINT-98)
+
+reset_design
+1
+create_clock -name clk -period 2 [get_ports clk]
+1
+set_input_delay -max 0.3 -clock [get_clocks clk] [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_output_delay -max 0.3 -clock [get_clocks clk] [all_outputs]
+1
+set_clock_uncertainty 0.05 [get_clocks] # 50 pico
+Error: extra positional option '#' (CMD-012)
+Error: extra positional option '50' (CMD-012)
+Error: extra positional option 'pico' (CMD-012)
+set_clock_latency -source 0.02  [get_clocks clk]
+1
+set_clock_latency -network 0.1 [get_clocks clk]
+Error: unknown option '-network' (CMD-010)
+set_false_path -hold -from [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_false_path -hold -to [all_outputs]
+1
+set_min_library  saed90nm_max_lth.db -min_version saed90nm_min_nt.db 
+1
+set_wire_load_model -name "8000" -library saed90nm_max_lth
+1
+set_wire_load_mode enclosed
+1
+set_load -max [expr {2 * [load_of saed90nm_max_lth/NBUFFX8/INP]}] [all_outputs]
+1
+set_driving_cell -no_design_rule -max -lib_cell TNBUFFX1 [remove_from_collection [all_inputs] [get_ports clk]]
+1
+group_path -name INPUTS -from [remove_from_collection [all_inputs] [get_ports clk]]
+1
+group_path -name OUTPUTS -to [all_outputs]
+1
+group_path -name COMB -from [all_inputs] -to [all_outputs]
+1
+
+  Linking design 'pit_top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  pit_top                     /home/vlsi/Synopsys/project/project_sar/syn/pit_top.db
+  saed90nm_max_lth (library)  /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db
+
+CPU Load: 26%, Ram Free: 0 GB, Swap Free: 13 GB, Work Disk Free: 183 GB, Tmp Disk Free: 51 GB
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | V-2023.12-DWBB_202312.0 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 261                                    |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 57                                     |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 5                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 23                                     |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all                                   |
+====================================================================================================
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'pit_top'
+Information: The register 'state_reg[3]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'pit_top_DW01_cmp2_0'
+Information: Changed minimum wire load model for 'pit_top_DW01_cmp2_0' from 'ForQA' to 'ForQA'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+  Processing 'pit_top_DW01_dec_0'
+Information: Changed minimum wire load model for 'pit_top_DW01_dec_0' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:14    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:16    3811.7      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:17    3803.4      0.00       0.0       0.0                          
+    0:00:18    3792.4      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:18    3792.4      0.00       0.0       0.0                          
+    0:00:18    3792.4      0.00       0.0       0.0                          
+    0:00:19    3632.0      0.00       0.0       0.0                          
+    0:00:19    3593.3      0.00       0.0       0.0                          
+    0:00:19    3554.6      0.01       0.0       0.0                          
+    0:00:19    3549.1      0.01       0.0       0.0                          
+    0:00:19    3543.6      0.01       0.0       0.0                          
+    0:00:19    3543.6      0.01       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+    0:00:19    3545.4      0.00       0.0       0.0                          
+    0:00:19    3545.4      0.00       0.0       0.0                          
+    0:00:19    3545.4      0.00       0.0       0.0                          
+    0:00:19    3545.4      0.00       0.0       0.0                          
+    0:00:19    3545.4      0.00       0.0       0.0                          
+    0:00:19    3545.4      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+    0:00:19    3545.4      0.00       0.0       0.0                          
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_min_nt.db'
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+CPU Load: 31%, Ram Free: 0 GB, Swap Free: 13 GB, Work Disk Free: 183 GB, Tmp Disk Free: 51 GB
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+Writing verilog file '/home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v'.
+Writing ddc file 'output/pit_top.ddc'.
+dc_shell> Current design is 'pit_top'.
+dc_shell> uplevel #0 source /home/vlsi/Synopsys/project/project_sar/syn/syn.tcl
+Running PRESTO HDLC
+Compiling source file ../rtl/pit_top.v
+Presto compilation completed successfully.
+Running PRESTO HDLC
+
+Statistics for case statements in always block at line 21 in file
+	'../rtl/pit_top.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            29            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine pit_top line 21 in file
+		'../rtl/pit_top.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   digital_out_reg   | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       EOC_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        i_reg        | Flip-flop |  30   |  Y  | N  | Y  | N  | N  | N  | N  |
+|        i_reg        | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     sar_reg_reg     | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (pit_top)
+Warning: Overwriting design file '/home/vlsi/Synopsys/project/project_sar/syn/pit_top.db'. (DDB-24)
+Warning: Overwriting design file '/home/vlsi/Synopsys/project/project_sar/syn/pit_top.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'pit_top'.
+Current design is 'pit_top'.
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12
+Date:        Mon May  6 06:38:15 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               1
+    Cells do not drive (LINT-1)                                     1
+--------------------------------------------------------------------------------
+
+Information: Use the 'check_design' command for 
+	 more information about warnings. (LINT-98)
+
+reset_design
+1
+create_clock -name clk -period 2 [get_ports clk]
+1
+set_input_delay -max 0.3 -clock [get_clocks clk] [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_output_delay -max 0.3 -clock [get_clocks clk] [all_outputs]
+1
+set_clock_uncertainty 0.05 [get_clocks] 
+1
+#set_clock_latency -source 0.02  [get_clocks clk]
+set_clock_latency  0.12 [get_clocks clk]
+1
+set_false_path -hold -from [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_false_path -hold -to [all_outputs]
+1
+set_min_library  saed90nm_max_lth.db -min_version saed90nm_min_nt.db 
+1
+set_wire_load_model -name "8000" -library saed90nm_max_lth
+1
+set_wire_load_mode enclosed
+1
+set_load -max [expr {2 * [load_of saed90nm_max_lth/NBUFFX8/INP]}] [all_outputs]
+1
+set_driving_cell -no_design_rule -max -lib_cell TNBUFFX1 [remove_from_collection [all_inputs] [get_ports clk]]
+1
+group_path -name INPUTS -from [remove_from_collection [all_inputs] [get_ports clk]]
+1
+group_path -name OUTPUTS -to [all_outputs]
+1
+group_path -name COMB -from [all_inputs] -to [all_outputs]
+1
+
+  Linking design 'pit_top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  pit_top                     /home/vlsi/Synopsys/project/project_sar/syn/pit_top.db
+  saed90nm_max_lth (library)  /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db
+
+CPU Load: 64%, Ram Free: 0 GB, Swap Free: 13 GB, Work Disk Free: 183 GB, Tmp Disk Free: 51 GB
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 261                                    |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 57                                     |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 5                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 23                                     |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all                                   |
+====================================================================================================
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'pit_top'
+Information: The register 'state_reg[3]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'pit_top_DW01_cmp2_0'
+Information: Changed minimum wire load model for 'pit_top_DW01_cmp2_0' from 'ForQA' to 'ForQA'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+  Processing 'pit_top_DW01_dec_0'
+Information: Changed minimum wire load model for 'pit_top_DW01_dec_0' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:14    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:15    4677.1      0.00       0.0       0.0                          
+    0:00:16    3811.7      0.04       0.1       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+    0:00:17    3845.8      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+    0:00:17    3820.0      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:18    3820.0      0.00       0.0       0.0                          
+    0:00:18    3820.0      0.00       0.0       0.0                          
+    0:00:19    3632.0      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:19    3632.0      0.00       0.0       0.0                          
+    0:00:19    3632.0      0.00       0.0       0.0                          
+    0:00:19    3598.8      0.00       0.0       0.0                          
+    0:00:19    3582.3      0.00       0.0       0.0                          
+    0:00:19    3560.1      0.00       0.0       0.0                          
+    0:00:19    3554.6      0.00       0.0       0.0                          
+    0:00:19    3549.1      0.00       0.0       0.0                          
+    0:00:19    3549.1      0.00       0.0       0.0                          
+Information: Changed minimum wire load model for 'pit_top' from '8000' to '8000'. (OPT-171)
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+    0:00:20    3549.1      0.00       0.0       0.0                          
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_min_nt.db'
+Loading db file '/eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+CPU Load: 49%, Ram Free: 0 GB, Swap Free: 13 GB, Work Disk Free: 183 GB, Tmp Disk Free: 51 GB
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+Writing verilog file '/home/vlsi/Synopsys/project/project_sar/syn/output/pit_top.v'.
+Writing ddc file 'output/pit_top.ddc'.
+dc_shell> Current design is 'pit_top'.
+dc_shell> 

@@ -1,0 +1,6 @@
+Info:  guide_reg_constant 21 (Line: 254) Cannot find master reference cell 'state_reg[3]'.
+Info:  SVF Operation 21 (Line: 254) - reg_constant.  Status: rejected
+Info:  guide_reg_constant 33 (Line: 386) Cannot find master reference cell 'state_reg[3]'.
+Info:  SVF Operation 33 (Line: 386) - reg_constant.  Status: rejected
+
+

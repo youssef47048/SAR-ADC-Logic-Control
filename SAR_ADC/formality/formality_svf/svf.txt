@@ -1,0 +1,474 @@
+
+
+##################################################################################
+# Copyright 2002-2024 Synopsys, Inc.  All rights reserved.
+# This Synopsys product and all associated documentation and files are
+# proprietary to Synopsys, Inc. and may only be used pursuant to the terms
+# and conditions of a written license agreement with Synopsys, Inc. All other
+# use, reproduction, modification, or distribution of the Synopsys product or
+# the associated documentation or files is strictly prohibited.
+##################################################################################
+
+
+## SVF file read: /home/vlsi/Synopsys/project/project_sar/syn/default.svf
+
+guide \
+  -tool { Design Compiler } \
+  -version { V-2023.12 built Nov 27, 2023 } \
+  -SVF { 21.230 } \
+  -timestamp { Mon May  6 06:53:16 2024 } 
+
+## Operation Id: 1
+guide_environment \
+  { { dc_product_version V-2023.12 } \
+    { dc_product_build_date { Nov 27, 2023 } } \
+    { bus_dimension_separator_style ][ } \
+    { bus_extraction_style %s\[%d:%d\] } \
+    { bus_multiple_separator_style , } \
+    { bus_naming_style %s[%d] } \
+    { bus_range_separator_style : } \
+    { dc_allow_rtl_pg false } \
+    { hdlin_allow_4state_parameters TRUE } \
+    { hdlin_unified_rtl_read FALSE } \
+    { hdlin_enable_hier_naming FALSE } \
+    { hdlin_enable_upf_compatible_naming FALSE } \
+    { hdlin_vhdl_preserve_case FALSE } \
+    { hdlin_generate_naming_style %s_%d } \
+    { hdlin_generate_separator_style _ } \
+    { hdlin_infer_enumerated_types FALSE } \
+    { hdlin_interface_port_downto FALSE } \
+    { hdlin_optimize_enum_types FALSE } \
+    { hdlin_preserve_sequential none } \
+    { hdlin_sverilog_std 2017 } \
+    { hdlin_sv_packages dont_chain } \
+    { hdlin_sv_union_member_naming FALSE } \
+    { hdlin_vhdl_std 2008 } \
+    { hdlin_vrlg_std 2005 } \
+    { hdlin_v2005_replication_semantics TRUE } \
+    { hdlin_while_loop_iterations 4096 } \
+    { hdlin_enable_verilog_configurations_canonical TRUE } \
+    { hdlin_enable_verilog_configurations_array_n_block TRUE } \
+    { hdlin_enable_persistent_macros FALSE } \
+    { hdlin_persistent_macros_filename syn_auto_generated_macro_file.sv } \
+    { link_portname_allow_period_to_match_underscore false } \
+    { link_portname_allow_square_bracket_to_match_underscore false } \
+    { port_complement_naming_style %s_BAR } \
+    { simplified_verification_mode FALSE } \
+    { template_naming_style %s_%p } \
+    { template_parameter_style %s%d } \
+    { template_separator_style _ } \
+    { upf_iso_filter_elements_with_applies_to ENABLE } \
+    { upf_isols_allow_instances_in_elements true } \
+    { link_library { * saed90nm_max_lth.db } } \
+    { target_library saed90nm_max_lth.db } \
+    { search_path /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models } \
+    { synopsys_root /eda/synopsys/syn/V-2023.12 } \
+    { cwd /home/vlsi/Synopsys/project/project_sar/syn } \
+    { define_design_lib { -path ./work work } } \
+    { analyze { -format verilog -library work ../rtl/pit_top.v } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 2
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 3
+guide_file_info \
+  -file { ../rtl/pit_top.v } \
+  -cksum_file { Svf1/checksums/42173_e2583ca2ec26eb0d48e4eb1cb9e37e01.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 42173 } \
+  -cksum { e2583ca2ec26eb0d48e4eb1cb9e37e01 } \
+  -version { 21.230 } 
+
+## Operation Id: 4
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 5
+guide_environment \
+  { { precompile_db_list /eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db } } 
+
+## Operation Id: 6
+guide_environment \
+  { { elaborate { -library work pit_top } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 7
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src1 } \
+  -output { 32 src3 } \
+  -pre_resource { { 32 } sub_47 = SUB { { src1 } { `b00000000000000000000000000000001 } } } \
+  -pre_assign { src3 = { sub_47.out.1 } } \
+  -post_resource { { 32 } sub_47 = SUB { { src1 } { `b00000000000000000000000000000001 } } } \
+  -post_assign { src3 = { sub_47.out.1 } } 
+
+## Operation Id: 8
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src1 } \
+  -output { 1 src5 } \
+  -pre_resource { { 1 } lt_48 = LT { { src1 } { `b00000000000000000000000000000000 } } } \
+  -pre_assign { src5 = { lt_48.out.1 } } \
+  -post_resource { { 1 0 } lt_48 = CMP2A { { src1 } { `b00000000000000000000000000000000 } { 1 } { 0 } } } \
+  -post_assign { src5 = { lt_48.out.1 } } 
+
+## Operation Id: 9
+guide_reg_constant \
+  -design { pit_top } \
+  -replaced { svfTrue } \
+  { state_reg[3] } \
+  { 0 } 
+
+## Operation Id: 10
+guide_uniquify \
+  -design { pit_top } \
+  { { lt_48 pit_top_DW01_cmp2_0 } } 
+
+## Operation Id: 11
+guide_uniquify \
+  -design { pit_top } \
+  { { sub_47 pit_top_DW01_dec_0 } } 
+
+## Operation Id: 12
+guide_environment \
+  { { postcompile_db_list /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } } 
+
+## Operation Id: 13
+guide_change_names \
+  -design { pit_top } \
+  { { cell i_reg[0] i_reg_0_ } \
+    { cell state_reg[0] state_reg_0_ } \
+    { cell state_reg[2] state_reg_2_ } \
+    { cell state_reg[1] state_reg_1_ } \
+    { cell i_reg[1] i_reg_1_ } \
+    { cell i_reg[2] i_reg_2_ } \
+    { cell i_reg[4] i_reg_4_ } \
+    { cell i_reg[5] i_reg_5_ } \
+    { cell i_reg[6] i_reg_6_ } \
+    { cell i_reg[7] i_reg_7_ } \
+    { cell i_reg[8] i_reg_8_ } \
+    { cell i_reg[9] i_reg_9_ } \
+    { cell i_reg[10] i_reg_10_ } \
+    { cell i_reg[11] i_reg_11_ } \
+    { cell i_reg[12] i_reg_12_ } \
+    { cell i_reg[13] i_reg_13_ } \
+    { cell i_reg[14] i_reg_14_ } \
+    { cell i_reg[15] i_reg_15_ } \
+    { cell i_reg[16] i_reg_16_ } \
+    { cell i_reg[17] i_reg_17_ } \
+    { cell i_reg[18] i_reg_18_ } \
+    { cell i_reg[19] i_reg_19_ } \
+    { cell i_reg[20] i_reg_20_ } \
+    { cell i_reg[21] i_reg_21_ } \
+    { cell i_reg[22] i_reg_22_ } \
+    { cell i_reg[23] i_reg_23_ } \
+    { cell i_reg[24] i_reg_24_ } \
+    { cell i_reg[25] i_reg_25_ } \
+    { cell i_reg[26] i_reg_26_ } \
+    { cell i_reg[27] i_reg_27_ } \
+    { cell i_reg[28] i_reg_28_ } \
+    { cell i_reg[29] i_reg_29_ } \
+    { cell i_reg[30] i_reg_30_ } \
+    { cell i_reg[31] i_reg_31_ } \
+    { cell sar_reg_reg[9] sar_reg_reg_9_ } \
+    { cell digital_out_reg[9] digital_out_reg_9_ } \
+    { cell sar_reg_reg[8] sar_reg_reg_8_ } \
+    { cell digital_out_reg[8] digital_out_reg_8_ } \
+    { cell sar_reg_reg[7] sar_reg_reg_7_ } \
+    { cell digital_out_reg[7] digital_out_reg_7_ } \
+    { cell sar_reg_reg[6] sar_reg_reg_6_ } \
+    { cell digital_out_reg[6] digital_out_reg_6_ } \
+    { cell sar_reg_reg[5] sar_reg_reg_5_ } \
+    { cell digital_out_reg[5] digital_out_reg_5_ } \
+    { cell sar_reg_reg[4] sar_reg_reg_4_ } \
+    { cell digital_out_reg[4] digital_out_reg_4_ } \
+    { cell sar_reg_reg[3] sar_reg_reg_3_ } \
+    { cell digital_out_reg[3] digital_out_reg_3_ } \
+    { cell sar_reg_reg[2] sar_reg_reg_2_ } \
+    { cell digital_out_reg[2] digital_out_reg_2_ } \
+    { cell sar_reg_reg[1] sar_reg_reg_1_ } \
+    { cell digital_out_reg[1] digital_out_reg_1_ } \
+    { cell sar_reg_reg[0] sar_reg_reg_0_ } \
+    { cell digital_out_reg[0] digital_out_reg_0_ } \
+    { cell i_reg[3] i_reg_3_ } } 
+
+## Operation Id: 14
+guide_environment \
+  { { write_file { -format verilog -hierarchy -output output/pit_top.v } } \
+    { write_file { -format ddc -hierarchy -output output/pit_top.ddc } } \
+    { current_design pit_top } \
+    { define_design_lib { -path ./work work } } \
+    { analyze { -format verilog -library work ../rtl/pit_top.v } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 15
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 16
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 17
+guide_environment \
+  { { precompile_db_list /eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db } } 
+
+## Operation Id: 18
+guide_environment \
+  { { elaborate { -library work pit_top } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 19
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src29 } \
+  -output { 32 src31 } \
+  -pre_resource { { 32 } sub_47 = SUB { { src29 } { `b00000000000000000000000000000001 } } } \
+  -pre_assign { src31 = { sub_47.out.1 } } \
+  -post_resource { { 32 } sub_47 = SUB { { src29 } { `b00000000000000000000000000000001 } } } \
+  -post_assign { src31 = { sub_47.out.1 } } 
+
+## Operation Id: 20
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src29 } \
+  -output { 1 src33 } \
+  -pre_resource { { 1 } lt_48 = LT { { src29 } { `b00000000000000000000000000000000 } } } \
+  -pre_assign { src33 = { lt_48.out.1 } } \
+  -post_resource { { 1 0 } lt_48 = CMP2A { { src29 } { `b00000000000000000000000000000000 } { 1 } { 0 } } } \
+  -post_assign { src33 = { lt_48.out.1 } } 
+
+## Operation Id: 21
+guide_reg_constant \
+  -design { pit_top } \
+  -replaced { svfTrue } \
+  { state_reg[3] } \
+  { 0 } 
+
+## Operation Id: 22
+guide_uniquify \
+  -design { pit_top } \
+  { { lt_48 pit_top_DW01_cmp2_0 } } 
+
+## Operation Id: 23
+guide_uniquify \
+  -design { pit_top } \
+  { { sub_47 pit_top_DW01_dec_0 } } 
+
+## Operation Id: 24
+guide_environment \
+  { { postcompile_db_list /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } } 
+
+## Operation Id: 25
+guide_change_names \
+  -design { pit_top } \
+  { { cell i_reg[0] i_reg_0_ } \
+    { cell state_reg[0] state_reg_0_ } \
+    { cell state_reg[2] state_reg_2_ } \
+    { cell state_reg[1] state_reg_1_ } \
+    { cell i_reg[1] i_reg_1_ } \
+    { cell i_reg[2] i_reg_2_ } \
+    { cell i_reg[3] i_reg_3_ } \
+    { cell i_reg[4] i_reg_4_ } \
+    { cell i_reg[5] i_reg_5_ } \
+    { cell i_reg[6] i_reg_6_ } \
+    { cell i_reg[7] i_reg_7_ } \
+    { cell i_reg[8] i_reg_8_ } \
+    { cell i_reg[9] i_reg_9_ } \
+    { cell i_reg[10] i_reg_10_ } \
+    { cell i_reg[11] i_reg_11_ } \
+    { cell i_reg[12] i_reg_12_ } \
+    { cell i_reg[13] i_reg_13_ } \
+    { cell i_reg[14] i_reg_14_ } \
+    { cell i_reg[15] i_reg_15_ } \
+    { cell i_reg[16] i_reg_16_ } \
+    { cell i_reg[17] i_reg_17_ } \
+    { cell i_reg[18] i_reg_18_ } \
+    { cell i_reg[19] i_reg_19_ } \
+    { cell i_reg[20] i_reg_20_ } \
+    { cell i_reg[21] i_reg_21_ } \
+    { cell i_reg[22] i_reg_22_ } \
+    { cell i_reg[23] i_reg_23_ } \
+    { cell i_reg[24] i_reg_24_ } \
+    { cell i_reg[25] i_reg_25_ } \
+    { cell i_reg[26] i_reg_26_ } \
+    { cell i_reg[27] i_reg_27_ } \
+    { cell i_reg[28] i_reg_28_ } \
+    { cell i_reg[29] i_reg_29_ } \
+    { cell i_reg[30] i_reg_30_ } \
+    { cell i_reg[31] i_reg_31_ } \
+    { cell sar_reg_reg[9] sar_reg_reg_9_ } \
+    { cell digital_out_reg[9] digital_out_reg_9_ } \
+    { cell sar_reg_reg[8] sar_reg_reg_8_ } \
+    { cell digital_out_reg[8] digital_out_reg_8_ } \
+    { cell sar_reg_reg[7] sar_reg_reg_7_ } \
+    { cell digital_out_reg[7] digital_out_reg_7_ } \
+    { cell sar_reg_reg[6] sar_reg_reg_6_ } \
+    { cell digital_out_reg[6] digital_out_reg_6_ } \
+    { cell sar_reg_reg[5] sar_reg_reg_5_ } \
+    { cell digital_out_reg[5] digital_out_reg_5_ } \
+    { cell sar_reg_reg[4] sar_reg_reg_4_ } \
+    { cell digital_out_reg[4] digital_out_reg_4_ } \
+    { cell sar_reg_reg[3] sar_reg_reg_3_ } \
+    { cell digital_out_reg[3] digital_out_reg_3_ } \
+    { cell sar_reg_reg[2] sar_reg_reg_2_ } \
+    { cell digital_out_reg[2] digital_out_reg_2_ } \
+    { cell sar_reg_reg[1] sar_reg_reg_1_ } \
+    { cell digital_out_reg[1] digital_out_reg_1_ } \
+    { cell sar_reg_reg[0] sar_reg_reg_0_ } \
+    { cell digital_out_reg[0] digital_out_reg_0_ } } 
+
+## Operation Id: 26
+guide_environment \
+  { { write_file { -format verilog -hierarchy -output output/pit_top.v } } \
+    { write_file { -format ddc -hierarchy -output output/pit_top.ddc } } \
+    { current_design pit_top } \
+    { define_design_lib { -path ./work work } } \
+    { analyze { -format verilog -library work ../rtl/pit_top.v } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 27
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 28
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 29
+guide_environment \
+  { { precompile_db_list /eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db } } 
+
+## Operation Id: 30
+guide_environment \
+  { { elaborate { -library work pit_top } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 31
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src57 } \
+  -output { 32 src59 } \
+  -pre_resource { { 32 } sub_47 = SUB { { src57 } { `b00000000000000000000000000000001 } } } \
+  -pre_assign { src59 = { sub_47.out.1 } } \
+  -post_resource { { 32 } sub_47 = SUB { { src57 } { `b00000000000000000000000000000001 } } } \
+  -post_assign { src59 = { sub_47.out.1 } } 
+
+## Operation Id: 32
+guide_transformation \
+  -design { pit_top } \
+  -type { map } \
+  -input { 32 src57 } \
+  -output { 1 src61 } \
+  -pre_resource { { 1 } lt_48 = LT { { src57 } { `b00000000000000000000000000000000 } } } \
+  -pre_assign { src61 = { lt_48.out.1 } } \
+  -post_resource { { 1 0 } lt_48 = CMP2A { { src57 } { `b00000000000000000000000000000000 } { 1 } { 0 } } } \
+  -post_assign { src61 = { lt_48.out.1 } } 
+
+## Operation Id: 33
+guide_reg_constant \
+  -design { pit_top } \
+  -replaced { svfTrue } \
+  { state_reg[3] } \
+  { 0 } 
+
+## Operation Id: 34
+guide_uniquify \
+  -design { pit_top } \
+  { { lt_48 pit_top_DW01_cmp2_0 } } 
+
+## Operation Id: 35
+guide_uniquify \
+  -design { pit_top } \
+  { { sub_47 pit_top_DW01_dec_0 } } 
+
+## Operation Id: 36
+guide_environment \
+  { { postcompile_db_list /eda/synopsys/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } } 
+
+## Operation Id: 37
+guide_change_names \
+  -design { pit_top } \
+  { { cell state_reg[0] state_reg_0_ } \
+    { cell state_reg[2] state_reg_2_ } \
+    { cell state_reg[1] state_reg_1_ } \
+    { cell i_reg[1] i_reg_1_ } \
+    { cell i_reg[2] i_reg_2_ } \
+    { cell i_reg[4] i_reg_4_ } \
+    { cell i_reg[5] i_reg_5_ } \
+    { cell i_reg[6] i_reg_6_ } \
+    { cell i_reg[7] i_reg_7_ } \
+    { cell i_reg[8] i_reg_8_ } \
+    { cell i_reg[9] i_reg_9_ } \
+    { cell i_reg[10] i_reg_10_ } \
+    { cell i_reg[11] i_reg_11_ } \
+    { cell i_reg[12] i_reg_12_ } \
+    { cell i_reg[13] i_reg_13_ } \
+    { cell i_reg[14] i_reg_14_ } \
+    { cell i_reg[15] i_reg_15_ } \
+    { cell i_reg[16] i_reg_16_ } \
+    { cell i_reg[17] i_reg_17_ } \
+    { cell i_reg[18] i_reg_18_ } \
+    { cell i_reg[19] i_reg_19_ } \
+    { cell i_reg[20] i_reg_20_ } \
+    { cell i_reg[21] i_reg_21_ } \
+    { cell i_reg[22] i_reg_22_ } \
+    { cell i_reg[23] i_reg_23_ } \
+    { cell i_reg[24] i_reg_24_ } \
+    { cell i_reg[25] i_reg_25_ } \
+    { cell i_reg[26] i_reg_26_ } \
+    { cell i_reg[27] i_reg_27_ } \
+    { cell i_reg[28] i_reg_28_ } \
+    { cell i_reg[29] i_reg_29_ } \
+    { cell i_reg[30] i_reg_30_ } \
+    { cell i_reg[31] i_reg_31_ } \
+    { cell sar_reg_reg[9] sar_reg_reg_9_ } \
+    { cell digital_out_reg[9] digital_out_reg_9_ } \
+    { cell sar_reg_reg[8] sar_reg_reg_8_ } \
+    { cell digital_out_reg[8] digital_out_reg_8_ } \
+    { cell sar_reg_reg[7] sar_reg_reg_7_ } \
+    { cell digital_out_reg[7] digital_out_reg_7_ } \
+    { cell sar_reg_reg[6] sar_reg_reg_6_ } \
+    { cell digital_out_reg[6] digital_out_reg_6_ } \
+    { cell sar_reg_reg[5] sar_reg_reg_5_ } \
+    { cell digital_out_reg[5] digital_out_reg_5_ } \
+    { cell sar_reg_reg[4] sar_reg_reg_4_ } \
+    { cell digital_out_reg[4] digital_out_reg_4_ } \
+    { cell sar_reg_reg[3] sar_reg_reg_3_ } \
+    { cell digital_out_reg[3] digital_out_reg_3_ } \
+    { cell sar_reg_reg[2] sar_reg_reg_2_ } \
+    { cell digital_out_reg[2] digital_out_reg_2_ } \
+    { cell sar_reg_reg[1] sar_reg_reg_1_ } \
+    { cell digital_out_reg[1] digital_out_reg_1_ } \
+    { cell sar_reg_reg[0] sar_reg_reg_0_ } \
+    { cell digital_out_reg[0] digital_out_reg_0_ } \
+    { cell i_reg[3] i_reg_3_ } \
+    { cell i_reg[0] i_reg_0_ } } 
+
+## Operation Id: 38
+guide_environment \
+  { { write_file { -format verilog -hierarchy -output output/pit_top.v } } \
+    { write_file { -format ddc -hierarchy -output output/pit_top.ddc } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+setup
+

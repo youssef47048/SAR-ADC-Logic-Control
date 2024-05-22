@@ -1,0 +1,13 @@
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+change_names        :          3          0          0          0          3
+environment         :         13          0          0          0         13
+file_info           :          1          0          0          0          1
+mark                :          6          0          0          0          6
+reg_constant        :          1          2          0          0          3
+transformation
+   map              :          6          0          0          0          6
+uniquify            :          6          0          0          0          6
+----------------------------------------------------------------------------
+Total               :         36          2          0          0         38
